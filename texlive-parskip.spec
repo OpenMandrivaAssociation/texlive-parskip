@@ -1,3 +1,9 @@
+# revision 19963
+# category Package
+# catalog-ctan /macros/latex/contrib/parskip
+# catalog-date 2010-09-30 14:11:14 +0200
+# catalog-license lppl
+# catalog-version 2.0
 Name:		texlive-parskip
 Version:	2.0
 Release:	1
@@ -39,6 +45,7 @@ properly-designed class) helps alleviate this untidiness.
 %{_texmfdistdir}/tex/latex/parskip/parskip.sty
 %doc %{_texmfdistdir}/doc/latex/parskip/parskip-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/parskip/parskip-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +56,5 @@ properly-designed class) helps alleviate this untidiness.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
