@@ -6,7 +6,7 @@
 # catalog-version 2.0
 Name:		texlive-parskip
 Version:	2.0
-Release:	7
+Release:	8
 Summary:	Layout with zero \parindent, non-zero \parskip
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/parskip
