@@ -1,6 +1,6 @@
 Name:		texlive-parskip
 Version:	58358
-Release:	1
+Release:	2
 Summary:	Layout with zero \parindent, non-zero \parskip
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/parskip
