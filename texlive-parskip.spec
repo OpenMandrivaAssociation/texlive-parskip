@@ -3,7 +3,7 @@ Version:	58358
 Release:	2
 Summary:	Layout with zero \parindent, non-zero \parskip
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/parskip
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/parskip
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/parskip.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/parskip.doc.r%{version}.tar.xz
